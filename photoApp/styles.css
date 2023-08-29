@@ -8,13 +8,14 @@
 
 *{
     box-sizing: border-box;
+
 }
 
 .navContainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 5rem;
     height: 11.0625rem;
 
 }
@@ -38,13 +39,19 @@ line-height: normal;
     color: var(--dark-100, #24282C);
 }
 
+#listElements{
+    display: flex;
+    justify-content: space-around;
+}
+
 #listElements ul{
     list-style: none;
     /* display: inline-block; */
     display: inline-flex;
-justify-content: center;
+justify-content: space-around;
 align-items: flex-start;
 gap: 3rem;
+padding: 0 40px;
 }
 
 #listElements li a{
@@ -97,7 +104,7 @@ line-height: normal;
 
 .mainSection{
     display: flex;
-    padding: 5.31rem 10% ;
+    padding: 5.31rem 5rem;
 }
 /* 
 #fistSection, #secondSection{
@@ -219,7 +226,7 @@ background: var(--primary-100, #A5823C);
     /* justify-content: center; */
     justify-content: center;
     align-items: center;
-    padding: 3.75rem 10%;
+    padding: 3.75rem 5rem;
     object-fit: cover;
     width: 100%;
     margin-bottom: 4.69rem;
