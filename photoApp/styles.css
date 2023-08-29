@@ -161,6 +161,40 @@ align-items: flex-start;
 gap: 1.5rem;
 }
 
+#secondSection{
+    position: relative;
+}
+
+#secondSection section{
+    position: relative;
+    /* z-index: -1; */
+    left: auto;
+
+}   
+
+#secondSection section img{
+    position: absolute;
+}   
+
+#secondSection section img:nth-child(2){
+    left: 2rem;
+}
+
+#secondSection section img:nth-child(3){
+    left: 4rem;
+}
+#secondSection section img:nth-child(4){
+    left: 6rem;
+}
+#secondSection section img:nth-child(5){
+    left: 8rem;
+}
+
+#secondSection section a{
+    position: absolute;
+    left: 14rem;
+}
+
 #secondSection h3{
     margin: 0;
 }
@@ -227,11 +261,97 @@ background: var(--primary-100, #A5823C);
     justify-content: center;
     align-items: center;
     padding: 3.75rem 5rem;
+    padding-bottom: 4.69rem;
     object-fit: cover;
     width: 100%;
-    margin-bottom: 4.69rem;
+    height: 40rem;
+    /* margin-bottom: 4.69rem; */
 }
 
+
+/* This is the second section */
+
+.aboutMeMainSection{
+    display: flex;
+    padding: 0 5rem;
+}
+
+
+#AboutMeSection h4{
+    padding-top: 9.5rem;
+    color: var(--dark-100, #24282C);
+font-family: Manrope;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+}
+
+#AboutMeSection h3{
+    color: var(--dark-100, #24282C);
+
+/* web/p-bold/75 */
+font-family: Manrope;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 4.6875rem; /* 133.929% */
+margin: 0;
+margin-top: 1rem;
+}
+
+#AboutMeSection span{
+    color: var(--primary-100, #A5823C);
+
+/* web/p-bold/75 */
+font-family: Manrope;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 4.6875rem;
+}
+
+#AboutMeSection p{
+    color: var(--grey-100, #878787);
+
+/* web/p-regular/37 */
+font-family: Manrope;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.3125rem; /* 154.167% */
+}
+
+#AboutMeSection button{
+    color: var(--background-light-100, #FFF);
+
+/* web/Font-6/semibold */
+font-family: Manrope;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+/* display: flex; */
+padding: 1.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.625rem;
+background: var(--primary-100, #A5823C);
+
+}
+
+#seeMoreSection{
+    display: flex;
+    gap: 3rem;
+}
+
+#imageContainer{
+    padding-top: 4.69rem;
+    width: 37.875rem;
+height: 47.3125rem;
+flex-shrink: 0;
+}
 
 
 
