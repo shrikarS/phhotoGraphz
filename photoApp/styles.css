@@ -54,6 +54,12 @@ gap: 3rem;
 padding: 0 40px;
 }
 
+#listElements span{
+    width: 2px;
+    height: 20px;
+    background-color: #878787;
+}
+
 #listElements li a{
     font-family: Manrope;
 font-size: 1.5rem;
